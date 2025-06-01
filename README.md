@@ -1,2 +1,3 @@
-# Water-Drinkability-Model
-xxx
+# Water Drinkability Model
+## This project is my attempt at finding the best model to predict water drinkability based on various determinants of water quality. The dataset includes variables such as Turbidity, pH, Dissolved oxygen (DO), Salinity, and Temperature, which were collected every two weeks for various bodies of water. The dataset was taken from the U.S. Department of the Interior, please visit [this link](https://catalog.data.gov/dataset/water-quality-data-41c5e) to download and understand the dataset in greater detail. 
+## Water drinkability is determined by "Salinity", where a value of less than 0.5 is considered drinkable. Standards tend to vary based on countries, and since the dataset captures only U.S. bodies of water, it makes most sense to use U.S. threshold values. A dummy variable called "Drinkability" was encoded, in which 0 stands for non-drinkable, and 1 means drinkable, thus giving us a clear target variable. The drinkability was then predicted using KNN, Logistic regression, Decision tree, and Random forest algorithms. 
