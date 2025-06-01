@@ -1,9 +1,5 @@
-
-3
-4
-5
-# Sample YAML Configuration File
-GENERAL:
-  url: https://ecommerce-playground.lambdatest.io/index.php?route=account/register
-  selenium_version: 4.8.0
-  timeout: 15
+experiment: "baseline_knn"
+features: ["pH", "Secchi Depth (m)", "Air Temp-Celsius"]
+model:
+  type: "KNN"
+  n_neighbors: 5
