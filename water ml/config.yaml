@@ -1,0 +1,5 @@
+experiment: "baseline_knn"
+features: ["pH", "Secchi Depth (m)", "Air Temp-Celsius"]
+model:
+  type: "KNN"
+  n_neighbors: 5
